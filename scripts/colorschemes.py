@@ -23,7 +23,7 @@ schemes = [ (gold, orange, red, orange, gold),
             (deepskyblue, aqua, royalblue, aqua, deepskyblue),
             (aliceblue, ghostwhite, snow, ghostwhite, aliceblue) ]
 
-scheme_names = ["fireColorScheme", "forestColorScheme" "skyColorScheme", "whiteColorScheme"]
+scheme_names = ["fireColorScheme", "forestColorScheme", "skyColorScheme", "whiteColorScheme"]
 
 for s, sn in zip(schemes, scheme_names):
     print("const CRGB {}[48] = {{ ".format(sn), end="")
